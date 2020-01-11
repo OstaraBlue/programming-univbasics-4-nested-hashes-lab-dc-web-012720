@@ -1,4 +1,3 @@
-
 def hopper
  		{
         :grace_hopper => {
@@ -35,7 +34,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
-  alan_kay_is_known_for = [:alan_kay][:known_for]
+  alan_kay_is_known_for = {[:alan_kay][:known_for]}
 end
 
 def dennis_ritchies_language
