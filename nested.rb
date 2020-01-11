@@ -1,6 +1,5 @@
 
 def hopper
-	programmer_hash = 
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -15,13 +14,12 @@ def hopper
           :languages => ["C"]
         }
      }
-
-
+programmer_hash = {:known_for=>"COBOL", :languages=>["COBOL", "FORTRAN"]}
+programmer_hash
 end
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-	
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -37,6 +35,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+  alan_kay_is_known_for = [:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
